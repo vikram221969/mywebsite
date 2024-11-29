@@ -1,7 +1,12 @@
-body{
-    background-color: yellow;
+function validate()
+{
+    let n=document.getElementById("name").value;
+    if(n!="")
+    {
+    document.getElementById("display").textContent="HELLO:"+n;
 }
-h4{
-    color: red;
-    font-family: 'Times New Roman', Times, serif;
+else
+{
+    document.getElementById("string").textContent="matter enter cheyyi bro";
+}
 }
