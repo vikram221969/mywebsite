@@ -1,5 +1,7 @@
-function validate()
-{
-    let n=document.getElementById("name").value;
-    document.getElementById("display").textContent="HELLO:"+n;
+body{
+    background-color: yellow;
+}
+h4{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
 }
